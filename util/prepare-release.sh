@@ -33,24 +33,25 @@ cp ~/.local/bin/savilerow.jar .
 mkdir -p lib ; cp ~/.local/bin/lib/trove.jar lib/
 
 # solvers
-cp ~/.local/bin/z3 .
-cp ~/.local/bin/yices-smt2 .
-cp ~/.local/bin/yices-smt .
-cp ~/.local/bin/yices-sat .
-cp ~/.local/bin/yices .
-cp ~/.local/bin/open-wbo .
-cp ~/.local/bin/nbc_minisat_all_release .
-cp ~/.local/bin/treengeling .
-cp ~/.local/bin/plingeling .
-cp ~/.local/bin/lingeling .
-cp ~/.local/bin/fzn-gecode .
-cp ~/.local/bin/fzn-chuffed .
-cp ~/.local/bin/kissat .
-cp ~/.local/bin/cadical .
-cp ~/.local/bin/boolector .
 cp ~/.local/bin/bc_minisat_all_release .
+cp ~/.local/bin/boolector .
+cp ~/.local/bin/cadical .
+cp ~/.local/bin/fzn-chuffed .
+cp ~/.local/bin/fzn-gecode .
 cp ~/.local/bin/glucose .
 cp ~/.local/bin/glucose-syrup .
+cp ~/.local/bin/kissat .
+cp ~/.local/bin/lingeling .
+cp ~/.local/bin/minion .
+cp ~/.local/bin/nbc_minisat_all_release .
+cp ~/.local/bin/open-wbo .
+cp ~/.local/bin/plingeling .
+cp ~/.local/bin/treengeling .
+cp ~/.local/bin/yices .
+cp ~/.local/bin/yices-sat .
+cp ~/.local/bin/yices-smt .
+cp ~/.local/bin/yices-smt2 .
+cp ~/.local/bin/z3 .
 
 echo "Before stripping"
 du -sh .
